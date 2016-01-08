@@ -8,7 +8,7 @@ Node Application for manipulating adt messages in Humber hospital food services
 
 [2] Install mongodb 2.6
 
-[3] cp /config/config_example.js /config/config.js
+[3] cp /config/config-example.js /config/config.js
 
 
 ## Usage
