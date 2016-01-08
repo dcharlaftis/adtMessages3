@@ -1,0 +1,21 @@
+<div class="portlet box blue-hoki" >
+    <div class="portlet-title">
+        <div class="caption">
+            <i class="fa fa-globe"></i>                
+        </div>
+    </div>
+    <div class="portlet-body">	
+        <table class="table table-striped table-bordered table-hover" id="{{tableid}}">
+            <thead>               
+                <tr>
+                    <th ng-repeat="title in tabledata.header" >{{title.title}}</th>                                      
+                </tr>
+            </thead>
+            <tbody >
+                <tr ng-repeat="row in tabledata.data" >
+                    <td ng-repeat="item in row" >{{item.value}}</td>                                            
+                </tr>
+            </tbody>           
+        </table>
+	</div>	
+</div>

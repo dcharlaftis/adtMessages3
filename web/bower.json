@@ -1,0 +1,26 @@
+{
+  "name": "adtweb client",
+  "description": "Web client application for adt messages",
+  "version": "1.0",
+  "homepage": "https://git.i3inc.ca/dcharlaftis/adtWebApp.git",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-ui-router": "",
+    "jquery": "",
+    "bootstrap": "",
+    "angular-resource": "~1.4.6",
+    "angular-local-storage": "~0.2.2",
+    "angular-bootstrap": "~0.13.4",
+    "angular-route": "~1.4.6",
+    "lodash": "~3.10.1",
+    "datatables": "~1.10.9",
+    "angular-datatables": "~0.5.0",
+    "datatables-tabletools": "~2.2.4",
+    "datatables-scroller": "~1.3.0",
+    "datatables-colreorder": "~1.2.0",
+    "bootbox": "~4.4.0",
+    "checklist-model": "~0.6.0"
+  }
+}

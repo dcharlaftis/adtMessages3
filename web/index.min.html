@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="PanaceaReports">
+<head>
+	<meta charset="utf-8" />
+    <title>ADT Messages</title>
+	
+	<!--uglified application -->
+    <script src="app.min.js"></script>
+	
+	<link rel="icon" type="img/ico" href="./assets/img/favicon.ico">
+			
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
+	
+    <script> 
+		$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+			options.async = true;
+			});
+	</script>
+	
+	
+</head>
+<body ng-controller="layoutController">
+	<div class = "row">
+		<div class="col-md-12">
+			 <div class="col-md-2"  > 
+			 <p><p>
+			 	<img src="assets/img/panacea.png" alt="panacea" id="logo-img" height="50" width="180" >
+			 </div>
+			 <div class="col-md-10"  > <h3>ADT Messages</h3></div>
+			 
+		</div>
+	</div>
+	<div class = "row">
+		<div class="col-md-12">
+			 <div  menu2 >menu</div>			
+		</div>
+	</div>
+	<div class = "row">
+		<div class="col-md-12">				
+				<div  class="well" ui-view ></div>			
+		</div>
+	</div>
+</body>
+</html>

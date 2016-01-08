@@ -1,0 +1,9 @@
+<nav class="navbar navbar-default" role="navigation">
+  
+  <div class="collapse navbar-collapse navbar-ex1-collapse">   
+    <ul class="nav navbar-nav navbar-left">     
+      <li ng-if="log_link.value=='Login'"><a ui-sref="lala.login">{{log_link.value}}</a></li>      
+      <li ng-if="log_link.value=='Logout'"><a ui-sref="lala.logout" ui-sref-active="active">{{log_link.value}}</a></li>            
+    </ul>
+  </div>
+</nav>

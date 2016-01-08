@@ -1,0 +1,39 @@
+<div>
+	<div class = "row">
+		<p><font size="4"> Make your choises for the adt messages.</font><p>
+		  <form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+			    <p ng-show="selectedItem!='Current Status'"><font size="3">Select Date Interval</font></p>			    
+				<p><input type="text" class="form-control" ng-show="selectedItem!='Current Status'" placeholder="Start Date (yyyymmdd) " ng-model="dateFrom" required>
+				<span ng-show="selectedItem!='Current Status'">==><span>
+				<input type="text" class="form-control" ng-show="selectedItem!='Current Status'" placeholder="End Date (yyyymmdd)" ng-model="dateTo" required></p>
+			    <br>
+			    <p><font size="3">Select Query Type</font></p>
+				<p><select class="form-control" name="r" ng-model="selectedItem">				        
+			           	<option ng-repeat="item in items" value="{{item}}">{{item}}</option>
+			      </select>
+			    </p>
+			    <p>
+			       <input type="text" class="form-control"  ng-show="selectedItem=='MRN History'"  placeholder="MRN" ng-model="mrn" required> 			       
+			    </p>
+			    <div>
+				    <p><input type="text" class="form-control" ng-show="selectedItem=='Bed History'" placeholder="Location"  ng-model="location" required >
+				    <input type="text" class="form-control"  ng-show="selectedItem=='Bed History'" placeholder="Room" ng-model="room" required >
+				    <input type="text" class="form-control"  ng-show="selectedItem=='Bed History'"  placeholder="Bed" ng-model="bed" required ></p>
+			    </div>
+			    <p>
+				   <button type="submit" class="btn btn-default" ng-click = "go()">Submit</button>
+				   <button type="submit" class="btn btn-default" ng-click = "clear()">Clear</button>
+				</p>
+                <div ng-if="showIt">
+				  <p><b>We are calculating the results...</b></p>
+				</div>
+			</div>			
+		  </form>
+		 <div class="row">
+	 	   <div class="col-md-12">
+	        <my-table tableid="cool"  tabledata="resultsTable" ready="{{resultsTable.ready}}"></my-table>
+	       </div>
+	    </div>
+	</div>
+</div>

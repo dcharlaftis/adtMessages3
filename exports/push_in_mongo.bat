@@ -1,0 +1,1 @@
+mongoimport --db adt_msg_store --collection hl7_messages < %1

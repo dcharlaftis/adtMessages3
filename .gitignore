@@ -1,0 +1,14 @@
+lll.txt
+logOutput.txt
+logs
+node_modules
+.idea/*
+config/config.js
+dump
+jsons
+client/logs
+client/csv
+web/bower_components
+web/node_modules
+web/dist
+monitor/config-monitor.js
