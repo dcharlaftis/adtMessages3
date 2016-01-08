@@ -14,6 +14,7 @@ Node Application for manipulating adt messages in Humber hospital food services
 ## Usage
 
 [1] node app2.js for initiating adt server.
+    
     The server will read after a predefined interval the adt messages from the hl7 collection
     or after a call to it, and return the medical record number for a spacified location given
     in the API call
