@@ -10,6 +10,11 @@ Node Application for manipulating adt messages in Humber hospital food services
 [2] node logParser.js for reading the whole log database again faster, after update
 
 
+##Note
+
+[1] This application runs through the Humber Hospital VPN network
+
+[2] Web folder refers to the client web application for viewing the adt message logs
 
 
 
