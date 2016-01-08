@@ -17,7 +17,7 @@ Node Application for manipulating adt messages in Humber hospital food services
     
     The server will read after a predefined interval the adt messages from the hl7 collection
     or after a call to it, and return the medical record number for a spacified location given
-    in the API call
+    in the API call.
 
 [2] node logParser.js for reading the whole log database again faster, after update
 
