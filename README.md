@@ -3,7 +3,7 @@
 Node Application for manipulating adt messages in Humber hospital food services
 
 
-## usage
+## Usage
 
 [1] node app2.js for initiating adt server
 
