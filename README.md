@@ -2,6 +2,14 @@
 
 Node Application for manipulating adt messages in Humber hospital food services
 
+## Prerequisites
+
+[1] Install node
+
+[2] Install mongodb 2.6
+
+[3] cp /config/config_example.js /config/config.js
+
 
 ## Usage
 
@@ -10,7 +18,7 @@ Node Application for manipulating adt messages in Humber hospital food services
 [2] node logParser.js for reading the whole log database again faster, after update
 
 
-##Note
+## Note
 
 [1] This application runs through the Humber Hospital VPN network
 
